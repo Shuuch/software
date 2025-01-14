@@ -1,0 +1,31 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* ログアウトボタンを右端に配置 */
+  background-color: #88946E; /* ヘッダーの背景色 */
+  color: white;
+  padding: 15px; /* 上下のパディング */
+  height: 80px; /* ヘッダーの高さを設定（高くしたい場合ここを調整） */
+  width: 100%; /* ヘッダーを横幅いっぱいに表示 */
+  box-sizing: border-box; /* パディングを含むボックスモデル */
+}
+
+.logo {
+  width: 50px; /* ロゴのサイズを設定 */
+  height: auto; /* アスペクト比を保持 */
+  margin-right: 10px; /* ロゴとテキストの間にスペースを追加 */
+}
+
+.logout-button {
+  background-color: #ff4500;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.logout-button:hover {
+  background-color: #d33;
+}

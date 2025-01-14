@@ -1,0 +1,64 @@
+/* EditHealthInfo.css */
+
+.edit-health-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 横方向の中央揃え */
+    justify-content: center; /* 縦方向の中央揃え */
+    height: 100vh; /* ビューポートの高さを占める */
+    padding: 20px;
+  }
+  
+  .edit-health-info-form {
+    max-width: 600px; /* 最大幅を設定して、内容が横に広がりすぎないように */
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-health-info-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .edit-health-info-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-health-info-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background-color: #88946E; /* ボタンの背景色 */
+    color: white; /* ボタンの文字色 */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #7a855c; /* ホバー時の背景色 */
+  }
+  
+  /* EditHealthInfo.css */
+
+/* 他のスタイルはそのまま */
+
+.edit-health-info-form label span {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  

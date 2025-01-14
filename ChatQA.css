@@ -1,0 +1,79 @@
+/* src/components/ChatQA.css */
+.chatqa-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .chatqa-header {
+    background-color: #88946E;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .chatqa-header h2 {
+    margin: 0;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .chatqa-box {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: scroll;
+    background-color: white;
+  }
+  
+  .message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .message.user {
+    background-color: #e0f7fa;
+    text-align: right;
+  }
+  
+  .message.bot {
+    background-color: #f1f1f1;
+  }
+  
+  .chatqa-input {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+  }
+  
+  .chatqa-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .chatqa-input button {
+    padding: 10px;
+    background-color: #88946E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .chatqa-input button:hover {
+    background-color: #88946E;
+  }
+  
